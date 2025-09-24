@@ -42,7 +42,7 @@ variable "app" {
 
 variable "image" {
 
-  default = "nginxinc/nginx-unprivileged:stable"
+  default = "registry.access.redhat.com/ubi8/httpd-24"
 
 }
 
